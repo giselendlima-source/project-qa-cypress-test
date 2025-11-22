@@ -47,14 +47,6 @@ Testes independentes entre si
 
 .gitignore configurado para ignorar vídeos, screenshots e node_modules
 
-## Próximos passos
-
-Adicionar relatórios automáticos (Allure ou Mochawesome)
-
-Configurar CI/CD (GitHub Actions)
-
-Expandir suíte para fluxos de cronogramas e gestão de estudos
-
 ## Contato
 
 Caso haja necessidade de evoluir a documentação ou incluir novos testes, fique à vontade para pedir!
