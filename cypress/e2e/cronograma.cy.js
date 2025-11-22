@@ -19,7 +19,7 @@ describe('US1 - Cronograma Personalizado', () => {
   })
 
 //Caso de Teste CT-C003 - Ajustar cronograma
-  it.only('CT-C003 - Ajustar cronograma', () => {
+  it('CT-C003 - Ajustar cronograma', () => {
     CronogramaPage.criarOutroCronograma()
     CronogramaPage.selecionarCronogramaPersonalizado()
     CronogramaPage.selecionarTipoCargo('Promotor')
