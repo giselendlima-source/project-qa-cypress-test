@@ -34,3 +34,27 @@ npx cypress open
 3. Executar no modo headless
 
 npx cypress run
+
+## Boas práticas utilizadas
+
+Esperas automáticas do Cypress (sem wait fixo desnecessário)
+
+Seletores estáveis baseados em atributos confiáveis
+
+Modularização com Page Objects onde faz sentido
+
+Testes independentes entre si
+
+.gitignore configurado para ignorar vídeos, screenshots e node_modules
+
+## Próximos passos
+
+Adicionar relatórios automáticos (Allure ou Mochawesome)
+
+Configurar CI/CD (GitHub Actions)
+
+Expandir suíte para fluxos de cronogramas e gestão de estudos
+
+## Contato
+
+Caso haja necessidade de evoluir a documentação ou incluir novos testes, fique à vontade para pedir!
