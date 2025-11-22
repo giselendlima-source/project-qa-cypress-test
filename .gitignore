@@ -1,0 +1,79 @@
+# ===============================
+# Node
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-store/
+
+# ===============================
+# Cypress
+# ===============================
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/fixtures/*.tmp
+
+# Arquivos criados por execução
+cypress/report/
+cypress/results/
+cypress/logs/
+
+# Plugin cache
+.cypress-cache/
+CypressCache/
+
+# ===============================
+# Sistema operacional
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDEs
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Logs gerais
+# ===============================
+*.log
+logs/
+debug.log
+error.log
+
+# ===============================
+# Ambiente / Segredos
+# ===============================
+.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# ===============================
+# Build / Dist (se tiver)
+# ===============================
+dist/
+build/
+out/
+
+# ===============================
+# Yarn / pnpm
+# ===============================
+.pnp*
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ===============================
+# Misc
+# ===============================
+coverage/
